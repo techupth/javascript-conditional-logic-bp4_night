@@ -1,7 +1,10 @@
 let favoriteBooks = [];
 
-function addFavoriteBook(bookName) {
+function addFavoriteBook(bookName)  { 
   // Start coding here !
+  if (bookName ){
+    addFavoriteBook=addFavoriteBook.Beauty
+  }else addFavoriteBook = []
 }
 
 // Example case
