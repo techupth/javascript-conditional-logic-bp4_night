@@ -1,4 +1,13 @@
 function calculateStudentGrade(score) {
+  if (score >= 80 && score <= 100) {
+  return "A";
+}else if (score >= 60 && score <= 79) {
+ return "B";
+} else if (score >= 50 && score <= 59) {
+ return "C";
+}else {
+ return "D";
+}
   // Start coding here
 }
 
